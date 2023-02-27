@@ -14,20 +14,30 @@
 		<section>
 			<h2>Legg inn en vurdering</h2>
 			<form>
-				<label for="by">By:</label>
-				<input type="text" id="by" name="by"><br>
+				<div class="vurdering">
+  <label for="transport">Transport:</label>
+  <input type="range" id="transport" name="transport" min="1" max="5" step="1">
+  <output for="transport">1</output>
+</div>
 
-				<label for="transport">Transport:</label>
-				<input type="range" id="transport" name="transport" min="1" max="5" step="1"><br>
+<div class="vurdering">
+  <label for="mat">Mat:</label>
+  <input type="range" id="mat" name="mat" min="1" max="5" step="1">
+  <output for="mat">1</output>
+</div>
 
-				<label for="mat">Mat:</label>
-				<input type="range" id="mat" name="mat" min="1" max="5" step="1"><br>
+<div class="vurdering">
+  <label for="folk">Folk:</label>
+  <input type="range" id="folk" name="folk" min="1" max="5" step="1">
+  <output for="folk">1</output>
+</div>
 
-				<label for="folk">Folk:</label>
-				<input type="range" id="folk" name="folk" min="1" max="5" step="1"><br>
+<div class="vurdering">
+  <label for="stemning">Stemning:</label>
+  <input type="range" id="stemning" name="stemning" min="1" max="5" step="1">
+  <output for="stemning">1</output>
+</div>
 
-				<label for="stemning">Stemning:</label>
-				<input type="range" id="stemning" name="stemning" min="1" max="5" step="1"><br>
 
 				<input type="submit" value="Legg til vurdering">
 			</form>
