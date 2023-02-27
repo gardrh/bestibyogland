@@ -1,0 +1,2 @@
+function sok() {
+	const soket
